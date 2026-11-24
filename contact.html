@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Байланыс | Садық Ерали</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="index.html">Садық <span>Ерали</span></a>
+  <button class="burger" id="burger" aria-label="Мәзір">☰</button>
+  <nav class="nav" id="nav"><a href="index.html">Басты бет</a><a href="about.html">Мен туралы</a><a href="skills.html">Дағдылар</a><a href="portfolio.html">Портфолио</a><a href="contact.html" class=active>Байланыс</a></nav>
+  <button class="theme" id="theme" aria-label="Тақырыпты ауыстыру">🌙</button>
+</header>
+<main>
+<section class="section">
+  <h2 class="title">Байланыс</h2>
+  <div class="grid two">
+    <div class="card reveal"><h3>Байланыс ақпараты</h3>
+      <p>📍 Астана / Алматы</p>
+      <p>📞 <a href="tel:+77476669856">+7 747 666 98 56</a></p>
+      <p>✉️ <a href="mailto:yerali.sadyk@narxoz.kz">yerali.sadyk@narxoz.kz</a></p></div>
+    <form class="card reveal" id="form" novalidate>
+      <h3>Хат жазу (демо)</h3>
+      <label>Аты-жөніңіз<input id="name" type="text"><small></small></label>
+      <label>Электрондық пошта<input id="email" type="email"><small></small></label>
+      <label>Хабарлама<textarea id="msg" rows="4"></textarea><small></small></label>
+      <button class="btn" type="submit">Жіберу</button>
+      <p id="ok" class="ok"></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <p>© 2026 Садық Ерали. Барлық құқықтар қорғалған.</p>
+  <p><a href="mailto:yerali.sadyk@narxoz.kz">E-mail</a> · <a href="tel:+77476669856">+7 747 666 98 56</a></p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
